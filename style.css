@@ -1,0 +1,473 @@
+#summary{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(135deg,rgba(244,244,246,.8) 60%,rgba(10,10,10,.95) 60%),url("images/bw-map.jpg");;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    display: flex;
+    font-family:sans-serif;
+}
+#about{
+    position: absolute;
+    left: 0px;
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(244,244,246.1);
+    display: flex;
+    font-family:sans-serif;
+}
+#myskills {
+    position: absolute;
+    left: 0px;
+    top: 200vh;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+#projects {
+    position: absolute;
+    left: 0px;
+    top: 300vh;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+span:hover{
+    color:rgb(58, 58, 58);
+}
+img:hover{
+    opacity: 1;
+}
+    #prj1{
+        position: relative;
+        margin-left: 10%;
+        height: 400px;
+        width: 400px;
+        border-radius: 25px;
+        background-image: url("images/microservice.jpg");
+        filter: grayscale(100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    #prj1h{
+        position: absolute;
+        rotate: 270deg;
+        color: black;
+        visibility: hidden;
+    }
+    #prj1in{
+        position: absolute;
+        top: 200px;
+        height: 200px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    #prjimg{
+        position: absolute;
+        top:100px;
+        height: 100px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    .prj1tech{
+        height: 24px;
+        width: 24px;
+        aspect-ratio: 1;
+        border-radius: 20px;
+        opacity: .7;
+        transition: .5s;
+        cursor: pointer;
+    }
+    #prj2{
+        position: relative;
+        margin-left: 0px;
+        height: 400px;
+        width: 200px;
+        border-radius: 25px;
+        background-image: url("images/amadeus.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    #prj2in{
+        position: absolute;
+        top: 200px;
+        height: 200px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    #prj2h{
+        position: absolute;
+        rotate: 270deg;
+        color: white;
+    }
+    #prjimg2{
+        position: absolute;
+        top:100px;
+        height: 100px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    .prj2tech{
+        height: 24px;
+        width: 24px;
+        aspect-ratio: 1;
+        border-radius: 20px;
+        opacity: .7;
+        transition: .5s;
+        cursor: pointer;
+    }
+    #prj3{
+        position: relative;
+        margin-left: 0px;
+        height: 400px;
+        width: 200px;
+        border-radius: 25px;
+        background-image: url("images/Blackjack.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    #prj3in{
+        position: absolute;
+        top: 200px;
+        height: 200px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    #prj3h{
+        position: absolute;
+        rotate: 270deg;
+        color: white;
+    }
+    #prjimg3{
+        position: absolute;
+        top:100px;
+        height: 100px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    .prj3tech{
+        height: 24px;
+        width: 24px;
+        aspect-ratio: 1;
+        border-radius: 20px;
+        opacity: .7;
+        transition: .5s;
+        cursor: pointer;
+    }
+    #prj4{
+        position: relative;
+        margin-left: 0px;
+        height: 400px;
+        width: 200px;
+        border-radius: 25px;
+        background-image: url("images/medical.png");
+        background-size:contain;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    #prj4in{
+        position: absolute;
+        top: 200px;
+        height: 200px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    #prj4h{
+        position: absolute;
+        rotate: 270deg;
+        color: white;
+    }
+    #prjimg4{
+        position: absolute;
+        top:100px;
+        height: 100px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    .prj4tech{
+        height: 24px;
+        width: 24px;
+        aspect-ratio: 1;
+        border-radius: 20px;
+        opacity: .7;
+        transition: .5s;
+        cursor: pointer;
+    }
+    #prj5{
+        position: relative;
+        margin-left: 0px;
+        height: 400px;
+        width: 200px;
+        border-radius: 25px;
+        background-image: url("images/crypt.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+    #prj5in{
+        position: absolute;
+        top: 200px;
+        height: 200px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    #prj5h{
+        position: absolute;
+        rotate: 270deg;
+        color: white;
+    }
+    #prjimg5{
+        position: absolute;
+        top:100px;
+        height: 100px;
+        width: 400px;
+        background-color: black;
+        opacity: 0.80;
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    .prj5tech{
+        height: 24px;
+        width: 24px;
+        aspect-ratio: 1;
+        border-radius: 20px;
+        opacity: .7;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+
+
+.prj1tech:hover{
+    opacity: 1;
+}
+
+#myskills1 {
+    position: absolute;
+    left: 0px;
+    top: 40vh;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+#myskills2 {
+    position: absolute;
+    left: 0px;
+    top: 70vh;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+.lang{
+    height: 128px;
+    width: 128px;
+    aspect-ratio: 1;
+    border-radius: 20px;
+    opacity: .7;
+    transition: .5s;
+    cursor: pointer;
+}
+.lang:hover {
+    opacity: 1;
+  }
+#intro{
+    position: absolute;
+    left: 0px;
+    top: 0vh;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    font-family:sans-serif;
+}
+@media screen and (max-width:1600px){
+    #intro2{
+        position: absolute;
+        left: 10%;
+        top: 50vh;
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        font-family:sans-serif;
+        
+    }
+    #prjlist {
+        position: absolute;
+        top: 40vh;
+        left: 0%;
+        width: 100%;
+        height: 60vh;
+        background-color: black;
+        display: flex;
+        font-family: sans-serif;
+    }
+}
+@media screen and (min-width:1600px){
+    #intro2{
+        position: absolute;
+        left: 15%;
+        top: 50vh;
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        font-family:sans-serif;
+        
+    }
+    #prjlist {
+        position: absolute;
+        top: 40vh;
+        left: 10%;
+        width: 90%;
+        height: 60vh;
+        background-color: black;
+        display: flex;
+        font-family: sans-serif;
+    }
+}
+.skills{
+    height: 275px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: rgb(51 51 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.img{
+    height: 64px;
+    width: 64px;
+}
+#nav{
+    opacity: 0.80;
+    color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10vh;
+    z-index: 1;
+    font-family: 'Nova Mono';
+    font-size: 50px;
+    font-weight: 1000;
+    background-color: white;
+}
+#logo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#menu{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+#main{
+    height: 380vh;
+    width: 100%;
+    display: flex;
+}
+body{
+    background-color: black;
+}

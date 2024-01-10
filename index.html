@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Nova Mono' rel='stylesheet'>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="nav">
+                <div id="logo">
+                    <span style="cursor: pointer;" onclick="uk()">UK</span>
+                </div>
+                <div id="menu">
+                    <span style="cursor: pointer;" onclick="about()">ABOUT</span>
+                    <span style="cursor: pointer;" onclick="skills()">SKILLS</span>
+                    <span style="cursor: pointer;" onclick="projects()">PROJECTS</span>
+                </div> 
+            </div>
+            <div id="summary">
+                <span style="position: absolute; left: 20%; top: 30%; font-weight: 1000;color:rgb(31, 31, 31);font-size: 80px;">HI, I'M</span>
+                <span style="position: absolute; left: 20%; top: 40.5%; font-weight: 1000;color:rgb(133, 133, 133);font-size: 80px;">UMUT</span>
+                <span style="position: absolute; left: 20%; top: 55%; color:rgb(31, 31, 31);font-size: 30px;line-height:40px">Computer Engineer</span> 
+                <a href="https://github.com/UK014"><img src="images/github-mark-white.png" style="height: 64px;width:64px;position:absolute;left:90%;top:85vh;" ></a>
+                <a href="https://www.linkedin.com/in/umut-keskin-778a2121a/"><img src="images/icons8-linkedin-50.png" style="height: 64px;width:64px;position:absolute;left:80%;top:85vh;" ></a>
+            </div>
+            <div id="about">
+                <div id="intro">
+                    <span style="position: absolute; left: 20%; top: 10vh; color:rgb(153, 153, 161);font-size: 20px;font-weight:700;">INTRODUCTION</span>
+                    <span style="position: absolute; left: 20%; top: 13vh; font-weight: 1000;color:black;font-size: 60px;">Overview.</span>
+                    <p style="position: absolute; left: 20%; top: 25vh; color:rgb(153, 153, 161);font-size: 18px;">I am a senior computer engineering student. Since I embarked on my journey in 2020, I have<br> worked with various languages and explored various areas. My primary passion is web development,<br> and I specialize in using Java and Spring Boot as my main languages and frameworks. 
+                    </p>
+                </div>
+                <div id="intro2">
+                    <div class="skills">
+                        <img src="data:image/png;base64,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" alt="Frontend Developer" class="img">
+                        <p style="font-size: 18px;text-align:center;font-weight:700;color:rgb(133, 133, 133);line-height:1.5">Frontend <br>Developer</p>
+                    </div>
+                    <div class="skills">
+                        <img src="data:image/png;base64,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" alt="Backend Developer" class="img">
+                        <p style="font-size: 18px;text-align:center;font-weight:700;color:rgb(133, 133, 133);line-height:1.5">Backend <br> Developer</p>
+                    </div>
+                    <div class="skills">
+                        <img src="images/database.png" alt="Software Prototyping" class="img">
+                        <p style="font-size: 18px;text-align:center;font-weight:700;color:rgb(133, 133, 133);line-height:1.5">Database <br> Designer</p>
+                    </div>
+                    <div class="skills">
+                        <img src="data:image/png;base64,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" alt="Software Prototyping" class="img">
+                        <p style="font-size: 18px;text-align:center;font-weight:700;color:rgb(133, 133, 133);line-height:1.5">Software <br>Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div id="myskills">
+                <div id="myskillsintro">
+                    <span style="position: absolute; left: 10%; top:12vh; color:rgb(153, 153, 161);font-size: 20px;font-weight:700;">MY SKILLS</span>
+                    <span style="position: absolute; left: 10%; top: 15vh; font-weight: 1000;color:black;font-size: 60px;">Technologies.</span>
+                </div>
+                <div id="myskills1">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"   class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"   class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"  class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"   class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"  class="lang"/>
+                </div>
+                <div id="myskills2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"  class="lang" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"  class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"  class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"   class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="lang"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"  class="lang"/>
+                </div>
+                    
+            </div>
+            <div id="projects">
+                <span style="position: absolute; left: 20%; top: 10vh; color:rgb(153, 153, 161);font-size: 20px;font-weight:700;">CASE STUDIES</span>
+                <span style="position: absolute; left: 20%; top: 13vh; font-weight: 1000;color:rgb(212,212,216);font-size: 60px;">Projects.</span>
+                <p style="position: absolute; left: 20%; top: 25vh; color:rgb(153, 153, 161);font-size: 18px;">These projects demonstrate my expertise with practical examples of some of my work, including brief descriptions and links to code repositories.<br> They showcase my ability to tackle intricate challenges, adapt to various technologies, and efficiently oversee projects. </p>
+                <div id="prjlist">
+                    <div id="prj1" onclick="prj1()">
+                        <span id="prj1h">Flight Reservation Microservice</span>
+                        <div id="prj1in">
+                            <a style="color:rgb(153, 153, 161);position:absolute;top:20px;font-size: 18px;font-weight:700;text-decoration:none" href="https://github.com/UK014/InternshipProjectMicroservices">Flight Reservation Microservice</a>
+                            <div id="prjimg">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"   class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"   class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"   class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"  class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="prj1tech"/>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div id="prj2" onclick="prj2()">
+                        <span id="prj2h">Amadeus Case</span>
+                        <div id="prj2in">
+                            <a href="https://github.com/UK014/AmadeusCaseStudy" style="color:rgb(153, 153, 161);position:absolute;top:20px;font-size: 18px;font-weight:700;text-decoration:none;" href="https://github.com/UK014/InternshipProjectMicroservices">Amadeus Case Study</a>
+                            <div id="prjimg2" >
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"   class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"  class="prj1tech"/>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div id="prj3" onclick="prj3()">
+                        <span id="prj3h">Blackjack js</span>
+                        <div id="prj3in">
+                            <a style="color:rgb(153, 153, 161);position:absolute;top:20px;font-size: 18px;font-weight:700;text-decoration:none;" href="https://github.com/UK014/Blackjack-js">Blackjack js</a>
+                            <div id="prjimg3" >
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"   class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="prj1tech"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"   class="prj1tech"/>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div id="prj4" onclick="prj4()">
+                        <span id="prj4h">Embedding Data to Image</span>
+                        <div id="prj4in">
+                            <a style="color:rgb(153, 153, 161);position:absolute;top:20px;font-size: 18px;font-weight:700;text-decoration:none;" href="https://github.com/UK014/DataEmbeddingintoGrayScaleMedicalImage">Embedding Data to Image</a>
+                            <div id="prjimg4" >
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  class="lang"/>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div id="prj5" onclick="prj5()">
+                        <span id="prj5h">Cryptanalysis of Caesar Cipher</span>
+                        <div id="prj5in">
+                            <a style="color:rgb(153, 153, 161);position:absolute;top:20px;font-size: 18px;font-weight:700;text-decoration:none;" href="https://github.com/UK014/Cryptanalysis-of-Caesar-Cipher">Cryptanalysis of Caesar Cipher</a>
+                            <div id="prjimg5" >
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  class="lang"/>
+                            </div>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
