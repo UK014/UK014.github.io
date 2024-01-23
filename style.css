@@ -1,48 +1,4 @@
-#summary{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(135deg,rgba(244,244,246,.8) 60%,rgba(10,10,10,.95) 60%),url("images/bw-map.jpg");;
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-color: white;
-    display: flex;
-    font-family:sans-serif;
-}
-#about{
-    position: absolute;
-    left: 0px;
-    top: 100vh;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(244,244,246.1);
-    display: flex;
-    font-family:sans-serif;
-}
-#myskills {
-    position: absolute;
-    left: 0px;
-    top: 200vh;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(51, 51, 51);
-    display: flex;
-    justify-content: space-between;
-    font-family: sans-serif;
-}
-#projects {
-    position: absolute;
-    left: 0px;
-    top: 300vh;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    font-family: sans-serif;
-}
+
 span:hover{
     color:rgb(58, 58, 58);
 }
@@ -368,6 +324,56 @@ img:hover{
     font-family:sans-serif;
 }
 @media screen and (max-width:1600px){
+    #summary{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(135deg,rgba(244,244,246,.8) 60%,rgba(10,10,10,.95) 60%),url("images/bw-map.jpg");;
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-color: white;
+        display: flex;
+        font-family:sans-serif;
+    }
+    #about{
+        position: absolute;
+        left: 0px;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(244,244,246.1);
+        display: flex;
+        font-family:sans-serif;
+    }
+    #myskills {
+        position: absolute;
+        left: 0px;
+        top: 200vh;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(51, 51, 51);
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+    #projects {
+        position: absolute;
+        left: 0px;
+        top: 300vh;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+    #main{
+        height: 380vh;
+        width: 100%;
+        display: flex;
+    }
     #intro2{
         position: absolute;
         left: 10%;
@@ -391,6 +397,56 @@ img:hover{
     }
 }
 @media screen and (min-width:1600px){
+    #summary{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(135deg,rgba(244,244,246,.8) 60%,rgba(10,10,10,.95) 60%),url("images/bw-map.jpg");;
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-color: white;
+        display: flex;
+        font-family:sans-serif;
+    }
+    #about{
+        position: absolute;
+        left: 0px;
+        top: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(244,244,246.1);
+        display: flex;
+        font-family:sans-serif;
+    }
+    #myskills {
+        position: absolute;
+        left: 0px;
+        top: 200vh;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(51, 51, 51);
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+    #projects {
+        position: absolute;
+        left: 0px;
+        top: 300vh;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+    #main{
+        height: 380vh;
+        width: 100%;
+        display: flex;
+    }
     #intro2{
         position: absolute;
         left: 15%;
@@ -407,6 +463,79 @@ img:hover{
         top: 40vh;
         left: 10%;
         width: 90%;
+        height: 60vh;
+        background-color: black;
+        display: flex;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width:1000px){
+    #summary{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 160%;
+        height: 100vh;
+        background-image: linear-gradient(135deg,rgba(244,244,246,.8) 60%,rgba(10,10,10,.95) 60%),url("images/bw-map.jpg");;
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-color: white;
+        display: flex;
+        font-family:sans-serif;
+    }
+    #about{
+        position: absolute;
+        left: 0px;
+        top: 100vh;
+        width: 160%;
+        height: 100vh;
+        background-color: rgb(244,244,246.1);
+        display: flex;
+        font-family:sans-serif;
+    }
+    #myskills {
+        position: absolute;
+        left: 0px;
+        top: 200vh;
+        width: 160%;
+        height: 100vh;
+        background-color: rgb(51, 51, 51);
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+    #projects {
+        position: absolute;
+        left: 0px;
+        top: 300vh;
+        width: 160%;
+        height: 110vh;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+    }
+    #main{
+        height: 380vh;
+        
+        display: flex;
+    }
+    #intro2{
+        position: absolute;
+        left: 15%;
+        top: 50vh;
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        font-family:sans-serif;
+        
+    }
+    #prjlist {
+        position: absolute;
+        top: 40vh;
+        left: 10%;
+        width: 70%;
         height: 60vh;
         background-color: black;
         display: flex;
@@ -445,13 +574,12 @@ img:hover{
 }
 #logo{
     position: absolute;
-    left: 0px;
+    left: 20%;
     top: 0px;
     width: 50%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+
     
 }
 #menu{
@@ -463,11 +591,7 @@ img:hover{
     display: flex;
     justify-content:space-between;
 }
-#main{
-    height: 380vh;
-    width: 100%;
-    display: flex;
-}
+
 body{
     background-color: black;
 }
